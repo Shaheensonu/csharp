@@ -1,0 +1,36 @@
+is,as
+is-->is used to check type of objcet
+Employee[]emplist=new Employee()
+new salariedEmployee()
+{empid=100,name="john"},
+new contractEmployee()
+{empid=101,name="john"},
+};
+here we are storing two different types of employee objects in Employee array
+foreach(Employee emp in Emplist)
+{
+if(emp is salariedEMployee)
+{salary=salary*10/100;
+
+parentclass objpc=new childclass();
+//cc=parentclass();
+cc=parentclassobject as childclassobject
+cc=(childclass)parentclassobject;
+-----------------
+abstract class is used as base class and we cant create object
+abstarct methods will have only declaration no body
+abstract methods should be implemented in child class
+abstarct can contain nonabstract methods also means a method with body we can consume that nonabstarct methods with object of child class
+childclassobject.nonabstarctmethodname()
+abstarct class myabstarct
+{
+abstarct boid display();
+public void display()
+{
+console.writeline();
+}}
+class childclass:myabstarct
+static void()
+{
+childclass objc=new childclass();
+objc.display();
